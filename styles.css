@@ -1,25 +1,4 @@
-
-/* Your CSS Code here. */
-table {
-            border-collapse: collapse;
-            width: 100%;
-            max-width: 800px;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-        thead th {
-            background-color: #b44;
-            color: white;
-        }
-        tbody tr:nth-child(1) {
-            background-color: #e5a0a0;
-        }
-        tbody tr:nth-child(2) {
-            background-color: #f2dede;
-        }
-        tbody tr:nth-child(3) {
-            background-color: #e0e0e0;
-        }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
